@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Db2Activity">
+
+    <TextView
+        android:id="@+id/mMaxDbTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22dbß"
+        android:textSize="29dp" />
+
+    <TextView
+        android:id="@+id/mMinDbTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22dbß"
+        android:textSize="29dp" />
+
+    <TextView
+        android:id="@+id/mAvgDbTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="22dbß"
+        android:textSize="29dp" />
+
+    <Button
+        android:id="@+id/btnStartRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始录音" />
+</androidx.appcompat.widget.LinearLayoutCompat>
